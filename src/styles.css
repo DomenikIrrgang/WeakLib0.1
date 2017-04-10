@@ -1,0 +1,35 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  padding: 0px;
+  padding-top: 68px;
+  background-color: #555;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+
+.img-small-profile {
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+	margin-right: 5px;
+	border: 1px solid white;
+}
+
+/* . . . */
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}

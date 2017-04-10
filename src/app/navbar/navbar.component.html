@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+
+				<!-- Collapsed Menu Button -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#">WeakLib</a>
+			</div>
+			<div class="collapse navbar-collapse" id="app-navbar-collapse">
+				<!-- Left Navigation -->
+				<ul class="nav navbar-nav">
+					<li [routerLinkActive]="['active']"><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+					<li [routerLinkActive]="['active']"><a routerLink="/heroes" routerLinkActive="active">Browse</a></li>
+				</ul>
+
+				<!-- Right Navigation -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Register</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							<!--<img src="./img/rikka.jpg" class="img-circle img-small-profile" alt="Cinque Terre">-->Suu<span class="caret"></span>
+						</a>
+
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Upload Weakaura</a></li>
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Subscribed Auras/Users</a></li>
+							<li><a href="#">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>

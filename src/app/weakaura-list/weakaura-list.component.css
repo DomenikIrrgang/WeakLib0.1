@@ -1,0 +1,19 @@
+.weakaura-row {
+  overflow: auto;
+}
+
+.weakaura-name {
+  float: left;
+  color: white;
+  text-decoration: underline;
+}
+
+.weakaura-time {
+  float: right;
+}
+
+.weakaura-icon {
+  float: left;
+  margin-right: 5px;
+  width: 16px;
+}

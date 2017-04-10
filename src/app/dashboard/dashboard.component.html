@@ -1,0 +1,37 @@
+<div class="container-fluid" style="padding: 0;">
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">Most Popular Weakauras (7 days)</div>
+      <div class="panel-body">
+        <weakaura-list [weakauras]="popularWeakauras"></weakaura-list>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">Latest Weakauras</div>
+      <div class="panel-body">
+        <weakaura-list [weakauras]="latestWeakauras"></weakaura-list>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" style="padding: 0;">
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">Newsfeed</div>
+      <div class="panel-body">
+        <news-entry [news]="news"></news-entry>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">Activity Feed</div>
+      <div class="panel-body">
+        <news-entry [news]="news"></news-entry>
+      </div>
+    </div>
+  </div>
+</div>

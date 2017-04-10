@@ -1,0 +1,23 @@
+.news-entry {
+    padding: 5px;
+}
+
+.picture img {
+    max-width: 100%;
+}
+
+.news-header a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .picture {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.carousel-caption h3 {
+    color: white;
+}
